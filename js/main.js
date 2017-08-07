@@ -13,4 +13,6 @@ function addComment() {
 	newComment.appendChild(commentText)
 	document.getElementById("body").appendChild(newName)
 	document.getElementById("body").appendChild(newComment)
-}
+	document.getElementById("name").value = ""
+	document.getElementById("comment").value = ""
+};
